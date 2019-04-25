@@ -16,7 +16,7 @@ Tem como objetivo gerar o arquivo migrations do sequelize apartir de uma tabela 
 
 
 # EXEMPLO
-
+### Para conseguir visualizar melhor a identação do arquivo visualizar no Raw ou em seu editor preferido
 Caso no seu banco de dados Postgres SQL exista uma tabela appointments com os campos :
 - id (Integer, Not Null, Primary Key)
 - date(Timestamp...)
@@ -25,7 +25,7 @@ Caso no seu banco de dados Postgres SQL exista uma tabela appointments com os ca
 
 a Função proposta vai converter essa tabela em um arquivo com a seguinte estrutura.
 
-` 'use strict'
+'use strict'
 module.exports = {
 	up: (queryInterface, Sequelize) => {
     return queryInterface.createTable('appointments', {
@@ -63,4 +63,4 @@ module.exports = {
   down: (queryInterface, Sequelize) => {
     return queryInterface.dropTable('appointments')
   }
-} `
+}
