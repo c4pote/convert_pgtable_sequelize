@@ -25,11 +25,10 @@ Caso no seu banco de dados Postgres SQL exista uma tabela appointments com os ca
 
 a Função proposta vai converter essa tabela em um arquivo com a seguinte estrutura.
 
-` 'use strict'`
-
-`module.exports = {`
-`  up: (queryInterface, Sequelize) => {`
-`    return queryInterface.createTable('appointments', {`
+` 'use strict'
+module.exports = {
+	up: (queryInterface, Sequelize) => {
+    return queryInterface.createTable('appointments', {
     id: {
        	allowNull:false
         type: Sequelize.INTEGER
