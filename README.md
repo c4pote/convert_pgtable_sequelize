@@ -1,5 +1,5 @@
 # Converte tabela do Postgres em um arquivo do Sequelize Migrations
-Tem como objetivo gerar o arquivo migrations do sequelize apartir de uma tabela do postgres
+Tem como objetivo gerar o conteudo de um arquivo migrations do sequelize apartir de uma tabela do postgres
 
 
 ## Como Utilizar
