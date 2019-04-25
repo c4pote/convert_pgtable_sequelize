@@ -6,7 +6,7 @@ Tem como objetivo gerar o arquivo migrations do sequelize apartir de uma tabela 
 
 ### Execute o create da função disponivel no arquivo converter_tabela_sequelize
 ### ARQUIVO DE APENAS UMA TABELA
-`select converter_tabela_sequelize('nome_da_tabela'); `
+`SELECT converter_tabela_sequelize('nome_da_tabela'); `
 
 ### ARQUIVO DE TODAS AS TABELAS DO BANCO DE DADOS 
  `SELECT converter_tabela_sequelize(tablename) 
